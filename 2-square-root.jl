@@ -3,7 +3,7 @@
 # Babylonian method
 function square_root(n)
     if n <= 0
-        error("DomainError")
+        throw(DomainError("Square root not defined for non-positive numbers."))
     else 
         attempt = n/2
         while true
