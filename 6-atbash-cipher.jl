@@ -52,5 +52,3 @@ function decode(input)
     end
     string_plain = string_plain[end-num_chars+1:end]
 end
-
-decode("gvhgr mt123 gvhgr mt")
