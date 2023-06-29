@@ -2,4 +2,4 @@
 
 Solutions from the exercises availables at <a href = "https://exercism.org/tracks/julia/exercises"> Julia Exercism </a>
 
-6/56
+7/56

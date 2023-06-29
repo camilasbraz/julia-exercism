@@ -25,5 +25,5 @@ function count_nucleotides(strand)
 
     return str
 end
-count_nucleotides("AGXXACT")
+count_nucleotides("ACCCACT")
 
