@@ -25,10 +25,9 @@ function sieve(limit)
 end
 
 
-# Replace 'your_limit' with the desired limit
-your_limit = 50
-primes_up_to_limit = sieve(your_limit)
-println("Prime numbers up to $your_limit: ", primes_up_to_limit)
+limit = 233
+primes = sieve(limit)
+println("Prime numbers up to $limit: ", primes)
 
 sieve(1) == []
 sieve(13) == [2, 3, 5, 7, 11, 13]
